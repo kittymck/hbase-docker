@@ -4,8 +4,8 @@
 
 # http://docs.docker.io/en/latest/use/builder/
 
-FROM ubuntu
-MAINTAINER Dave Beckett <dave@dajobe.org>
+FROM resin/rpi-raspbian:jessie
+MAINTAINER Sarah McKechnie <sarah.a.mckechnie@gmail.com>
 
 COPY *.sh /build/
 
